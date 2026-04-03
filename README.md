@@ -1,6 +1,6 @@
 # RP2040 I2C
 
-Este código configura a I2C da placa Raspberry Pi RP2040.
+This code configures I2C from the Raspberry Pi RP2040 board.
 
 ## Propriedades
 
@@ -13,7 +13,7 @@ type APDS9960 struct {
 }
 ```
 
-**Painel de configurações:**
+**Settings panel:**
 ```
   +----------------------------+
   |  SDA Pin   [   GP4 ▼] Pin  |
@@ -23,6 +23,6 @@ type APDS9960 struct {
   +----------------------------+
 ```
 
-## Placa RP2040
+## Board RP2040
 
 ![](rp2040.svg)
