@@ -13,9 +13,10 @@ import (
 
 // I2CBus configures an I2C bus. All settings come from the Inspect panel.
 type I2CBus struct {
-	sda  string `prop:"SDA Pin"   default:"GP4"    options:"GP4,GP6,GP8,GP10,GP12,GP14"`
-	scl  string `prop:"SCL Pin"   default:"GP5"    options:"GP5,GP7,GP9,GP11,GP13,GP15"`
-	freq string `prop:"Frequency" default:"400000" options:"100000,400000,1000000"`
+	sda    string `prop:"SDA Pin"   default:"GP4"    options:"GP4,GP6,GP8,GP10,GP12,GP14" pin:"I2C_SDA"`
+	scl    string `prop:"SCL Pin"   default:"GP5"    options:"GP5,GP7,GP9,GP11,GP13,GP15" pin:"I2C_SCL"`
+	intPin string `prop:"INT Pin" default:"GP3" options:"GP2,GP3,GP22"               pin:"GPIO_INT"`
+	freq   string `prop:"Frequency" default:"400000" options:"100000,400000,1000000"`
 }
 
 // Init sets up the I2C peripheral and returns a ready bus reference.
