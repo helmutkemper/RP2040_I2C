@@ -12,6 +12,7 @@ import (
 )
 
 // I2CBus configures an I2C bus. All settings come from the Inspect panel.
+// board:rp2040.
 type I2CBus struct {
 	sda    string `prop:"SDA Pin"   default:"GP4"    options:"GP4,GP6,GP8,GP10,GP12,GP14" pin:"I2C_SDA"  unit:"Pin"`
 	scl    string `prop:"SCL Pin"   default:"GP5"    options:"GP5,GP7,GP9,GP11,GP13,GP15" pin:"I2C_SCL"  unit:"Pin"`
