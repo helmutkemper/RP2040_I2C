@@ -1,15 +1,15 @@
 # Configuration
 
-This component boots the I2C of the Raspberry Pi RP2040 board and is required to use.
+## Board RP2040
 
-You can configure the pins used by I2C and the frequency bellow.
+This component initializes the I2C connection on the Raspberry Pi RP2040 board and is required for I2C setup.
+
+![](rp2040.svg)
+
+You can configure the pins used by I2C and the data transfer rate in the panel below.
 
 <!-- place_the_control_panel_here -->
 
-## Board RP2040
+When you change the pin settings and click `apply`, the image updates.
 
-When you change the pins configuration and press 'apply', the image updates.
-
-You can click on the image to enlarge.
-
-![](rp2040.svg)
+You can click on the image to enlarge it.
