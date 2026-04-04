@@ -14,4 +14,8 @@ You can invoke the inspection panel from the menu and configure the pins used by
 
 ## Board RP2040
 
+When you change the configuration pins on the inspection panel and press 'apply', the image updates.
+
+You can click on the image to enlarge.
+
 ![](rp2040.svg)

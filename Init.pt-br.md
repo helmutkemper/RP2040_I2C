@@ -14,4 +14,8 @@ Você pode chamar o painel de inspeção pelo menu e configurar os pinos usados 
 
 ## Board RP2040
 
+Quando você muda os pinos de configuração no painel de inspeção e aperta `aplicar`, a imagem atualiza.
+
+Você pode clicar em cima da imagem para ampliar.
+
 ![](rp2040.svg)
