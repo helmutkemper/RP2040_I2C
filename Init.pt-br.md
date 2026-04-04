@@ -2,19 +2,13 @@
 
 Este componente inicializa a I2C da placa Raspberry Pi RP2040 e é de uso obrigatório.
 
-Você pode chamar o painel de inspeção pelo menu e configurar os pinos usados pelo I2C e a frequência.
+Você pode configurar os pinos usados pelo I2C e a frequência abaixo.
 
-```
-  +----------------------------+
-  |  SDA Pin   [   GP4 ▼] Pin  |
-  |  SCL Pin   [   GP5 ▼] Pin  |
-  |  Frequency [100000 ▼] bps  |
-  +----------------------------+
-```
+<!-- place_the_control_panel_here -->
 
 ## Board RP2040
 
-Quando você muda os pinos de configuração no painel de inspeção e aperta `aplicar`, a imagem atualiza.
+Quando você muda as configurações dos pinos e aperta `aplicar`, a imagem atualiza.
 
 Você pode clicar em cima da imagem para ampliar.
 
