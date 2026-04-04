@@ -1,20 +1,13 @@
-# Configuration
+# Configuração
 
-```go
-type RP2040_I2C struct {
-	sda    string `prop:"SDA Pin"   default:"GP4"    options:"GP4,GP6,GP8,GP10,GP12,GP14" connection:"I2C_SDA"`
-	scl    string `prop:"SCL Pin"   default:"GP5"    options:"GP5,GP7,GP9,GP11,GP13,GP15" connection:"I2C_SCL"`
-	intPin string `prop:"INT Pin"   default:"GP3"    options:"GP2,GP3,GP22"               connection:"GPIO_INT"`
-	freq   string `prop:"Frequency" default:"100000" options:"100000,400000,1000000"`
-}
-```
+Este componente inicializa a I2C da placa Raspberry Pi RP2040 e é de uso obrigatório.
 
-**Settings panel:**
+Você pode chamar o painel de inspeção pelo menu e configurar os pinos usados pelo I2C e a frequência.
+
 ```
   +----------------------------+
   |  SDA Pin   [   GP4 ▼] Pin  |
   |  SCL Pin   [   GP5 ▼] Pin  |
-  |  INT Pin   [   GP3 ▼] Pin  |
   |  Frequency [100000 ▼] bps  |
   +----------------------------+
 ```
@@ -22,4 +15,3 @@ type RP2040_I2C struct {
 ## Board RP2040
 
 ![](rp2040.svg)
-

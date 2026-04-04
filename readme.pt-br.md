@@ -1,8 +1,10 @@
-# Configuration
+# RP2040 I2C
 
-This component boots the I2C of the Raspberry Pi RP2040 board and is required to use.
+Este dispositivo configura a I2C da placa Raspberry Pi Pico RP2040.
 
-You can invoke the inspection panel from the menu and configure the pins used by I2C and the frequency.
+## Configuração
+
+Este dispositivo permite a você configurar os pinos da I2C pelo painel de inspeção, pelo menu, de forma simples.
 
 ```
   +----------------------------+
