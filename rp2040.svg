@@ -1,4 +1,4 @@
-<svg data-palette="I2C_SDA:#7c3aed, I2C_SCL:#0d9488, SPI_MOSI:#2563eb, SPI_MISO:#3b82f6, SPI_SCK:#1d4ed8, SPI_CS:#60a5fa, UART_TX:#0891b2, UART_RX:#06b6d4, GPIO_INT:#dc2626, PWM:#ea580c, ADC:#d97706, RESET:#9333ea" viewBox="0 0 620 411" xmlns="http://www.w3.org/2000/svg">
+<svg data-palette="I2C_SDA:#7c3aed, I2C_SCL:#0d9488, SPI_MOSI:#2563eb, SPI_MISO:#3b82f6, SPI_SCK:#1d4ed8, SPI_CS:#60a5fa, UART_TX:#0891b2, UART_RX:#06b6d4, GPIO_INT:#dc2626, PWM:#ea580c, ADC:#d97706, RESET:#9333ea" viewBox="0 0 630 411" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .board   { fill: #1a5c1a; }
