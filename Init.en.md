@@ -4,7 +4,7 @@ This component boots the I2C of the Raspberry Pi RP2040 board and is required to
 
 You can configure the pins used by I2C and the frequency bellow.
 
-<!-- place_the_control_panel_here  -->
+<!-- place_the_control_panel_here -->
 
 ## Board RP2040
 
