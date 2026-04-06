@@ -13,3 +13,11 @@ You can configure the pins used by I2C and the data transfer rate in the panel b
 When you change the pin settings and click `apply`, the image updates.
 
 You can click on the image to enlarge it.
+
+## Example
+
+Click on the image below to load the example.
+
+![example image](/examples/example.png)
+
+> This is an image with steganography; it hides binary project data. Do not edit it.

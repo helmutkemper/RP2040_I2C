@@ -14,4 +14,10 @@ Quando você muda as configurações dos pinos e aperta `aplicar`, a imagem atua
 
 Você pode clicar em cima da imagem para ampliar.
 
+## Exemplo
 
+Clique na imahem abaixo para carregar o exemplo.
+
+![example image](/examples/example.png)
+
+> Esta é uma imagem com esteganografia; ela oculta dados binários do projeto. Não a edite.
