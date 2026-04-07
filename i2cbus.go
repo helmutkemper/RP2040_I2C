@@ -12,6 +12,7 @@ import (
 )
 
 // RP2040_I2C configures an I2C bus. All settings come from the Inspect panel.
+//
 // icon:microchip. label:RP2040 I2C. interactive:rp2040.
 type RP2040_I2C struct {
 	sda  string `prop:"SDA Pin"   default:"GP4"    options:"GP4,GP6,GP8,GP10,GP12,GP14" connection:"I2C_SDA"`
@@ -21,7 +22,7 @@ type RP2040_I2C struct {
 
 // Init sets up the I2C peripheral and returns a ready bus reference.
 //
-// executionOrder:1. icon:circle-play. label:I2C Init().
+// executionOrder:1. icon:circle-play. label:Init.
 //
 // Returns
 //
