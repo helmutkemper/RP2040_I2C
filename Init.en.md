@@ -2,7 +2,7 @@
 
 ## Board RP2040
 
-This component initializes the I2C connection on the Raspberry Pi RP2040 board and is required for I2C setup.
+This block initializes the I2C connection on the Raspberry Pi RP2040 board and is required for I2C setup.
 
 ![](rp2040.svg)
 

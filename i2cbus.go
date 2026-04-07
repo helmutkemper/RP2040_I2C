@@ -21,7 +21,7 @@ type RP2040_I2C struct {
 
 // Init sets up the I2C peripheral and returns a ready bus reference.
 //
-// executionOrder:1. icon:circle-play.
+// executionOrder:1. icon:circle-play. label:I2C Init().
 //
 // Returns
 //
